@@ -1,0 +1,1015 @@
+[
+  {
+    "doc_id": "DOC-001",
+    "doc_type": "Customer Support Chat",
+    "content": "Namaste, mera account number 65477123762 hai aur IFSC BARB0204533. Kal se paise debit ho gaye lekin transaction fail dikha raha hai, kya aap check kar sakte ho?",
+    "expected_pii_labels": {
+      "ACCOUNT_NUMBER": [
+        "65477123762"
+      ],
+      "IFSC": [
+        "BARB0204533"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-002",
+    "doc_type": "KYC Form",
+    "content": "Corporate KYC for Sri Lakshmi Traders, GSTIN 24VTQCZ5568H8ZR. The authorised signatory Sunita Yadav holds PAN KRJPY6388J and can be reached at +91 61332 79672 or sunita.yadav56@outlook.com.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Sri Lakshmi Traders"
+      ],
+      "GSTIN": [
+        "24VTQCZ5568H8ZR"
+      ],
+      "PERSON": [
+        "Sunita Yadav"
+      ],
+      "PAN": [
+        "KRJPY6388J"
+      ],
+      "PHONE": [
+        "+91 61332 79672"
+      ],
+      "EMAIL": [
+        "sunita.yadav56@outlook.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-003",
+    "doc_type": "KYC Form",
+    "content": "KYC form submitted by Gurpreet Kaur, date of birth 07/10/1997. Aadhaar number 8745 2198 0338 and PAN AOSPK1135O have been provided as proof of identity, with C-87, Malviya Nagar, Jaipur, Rajasthan 302017 as the permanent address.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Gurpreet Kaur"
+      ],
+      "DOB": [
+        "07/10/1997"
+      ],
+      "AADHAAR": [
+        "8745 2198 0338"
+      ],
+      "PAN": [
+        "AOSPK1135O"
+      ],
+      "ADDRESS": [
+        "C-87, Malviya Nagar, Jaipur, Rajasthan 302017"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-004",
+    "doc_type": "Loan Application",
+    "content": "Applicant Shweta Desai (DOB 04/02/1997) has applied for a personal loan of ₹10 lakh. PAN XGSPD4948E and Aadhaar 4185 4914 5249 were submitted as identity proof, and the residential address on record is TC 25/1841, Pattom, Thiruvananthapuram, Kerala 695004. The applicant can be reached on +91 81064 60013.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Shweta Desai"
+      ],
+      "DOB": [
+        "04/02/1997"
+      ],
+      "PAN": [
+        "XGSPD4948E"
+      ],
+      "AADHAAR": [
+        "4185 4914 5249"
+      ],
+      "ADDRESS": [
+        "TC 25/1841, Pattom, Thiruvananthapuram, Kerala 695004"
+      ],
+      "PHONE": [
+        "+91 81064 60013"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-005",
+    "doc_type": "KYC Form",
+    "content": "Re-KYC request for Lakshmi Narayanan. The updated mobile number is +91 81062 61488, and Aadhaar 4107 6177 0771 has been verified via OTP. The correspondence address is C-87, Malviya Nagar, Jaipur, Rajasthan 302017.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Lakshmi Narayanan"
+      ],
+      "PHONE": [
+        "+91 81062 61488"
+      ],
+      "AADHAAR": [
+        "4107 6177 0771"
+      ],
+      "ADDRESS": [
+        "C-87, Malviya Nagar, Jaipur, Rajasthan 302017"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-006",
+    "doc_type": "Loan Application",
+    "content": "Imran Qureshi, proprietor of Sri Lakshmi Traders, has requested a working capital loan of ₹7 lakh. The firm's GSTIN is 29GRBCK1291D1ZL and the proprietor's PAN is ZDJPQ6590R. The registered business address is Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Imran Qureshi"
+      ],
+      "ORGANIZATION": [
+        "Sri Lakshmi Traders"
+      ],
+      "GSTIN": [
+        "29GRBCK1291D1ZL"
+      ],
+      "PAN": [
+        "ZDJPQ6590R"
+      ],
+      "ADDRESS": [
+        "Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-007",
+    "doc_type": "Customer Support Chat",
+    "content": "Hi, main Metro Logistics Pvt Ltd ka owner Lakshmi Narayanan hoon. Humara GSTIN 24RDIPN4337M4ZP hai aur invoice upload nahi ho raha, please jaldi se dekho aur lakshmi.narayanan54@gmail.com par confirmation bhejo.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Metro Logistics Pvt Ltd"
+      ],
+      "PERSON": [
+        "Lakshmi Narayanan"
+      ],
+      "GSTIN": [
+        "24RDIPN4337M4ZP"
+      ],
+      "EMAIL": [
+        "lakshmi.narayanan54@gmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-008",
+    "doc_type": "Customer Support Chat",
+    "content": "Bhai, meri KYC update nahi ho rahi hai. Maine Aadhaar 6911 9070 1473 link kiya tha lekin error aa raha hai, mera email gurpreet.kaur68@gmail.com hai, jaldi solve karo please.",
+    "expected_pii_labels": {
+      "AADHAAR": [
+        "6911 9070 1473"
+      ],
+      "EMAIL": [
+        "gurpreet.kaur68@gmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-009",
+    "doc_type": "Loan Application",
+    "content": "Applicant Ananya Banerjee (DOB 13/11/1998) has applied for a personal loan of ₹7 lakh. PAN LMAPB7874L and Aadhaar 2854 1775 8888 were submitted as identity proof, and the residential address on record is No. 9, Saraswathipuram, Mysuru, Karnataka 570009. The applicant can be reached on +91 64401 90187.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Ananya Banerjee"
+      ],
+      "DOB": [
+        "13/11/1998"
+      ],
+      "PAN": [
+        "LMAPB7874L"
+      ],
+      "AADHAAR": [
+        "2854 1775 8888"
+      ],
+      "ADDRESS": [
+        "No. 9, Saraswathipuram, Mysuru, Karnataka 570009"
+      ],
+      "PHONE": [
+        "+91 64401 90187"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-010",
+    "doc_type": "Customer Support Chat",
+    "content": "Hello, mera naam Naveen Prasad hai. Mera loan account ka status check karna hai, please meri PAN RKDPP0029J se verify kar lo aur mujhe +91 91953 09552 par call back karo.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Naveen Prasad"
+      ],
+      "PAN": [
+        "RKDPP0029J"
+      ],
+      "PHONE": [
+        "+91 91953 09552"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-011",
+    "doc_type": "Customer Support Chat",
+    "content": "Namaste, mera account number 88589383299 hai aur IFSC HDFC0770913. Kal se paise debit ho gaye lekin transaction fail dikha raha hai, kya aap check kar sakte ho?",
+    "expected_pii_labels": {
+      "ACCOUNT_NUMBER": [
+        "88589383299"
+      ],
+      "IFSC": [
+        "HDFC0770913"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-012",
+    "doc_type": "KYC Form",
+    "content": "KYC form submitted by Harish Shetty, date of birth 17/02/1998. Aadhaar number 8780 7360 8729 and PAN OWHPS6385N have been provided as proof of identity, with No. 9, Saraswathipuram, Mysuru, Karnataka 570009 as the permanent address.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Harish Shetty"
+      ],
+      "DOB": [
+        "17/02/1998"
+      ],
+      "AADHAAR": [
+        "8780 7360 8729"
+      ],
+      "PAN": [
+        "OWHPS6385N"
+      ],
+      "ADDRESS": [
+        "No. 9, Saraswathipuram, Mysuru, Karnataka 570009"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-013",
+    "doc_type": "Loan Application",
+    "content": "Rajesh Kumar has applied for a home loan of ₹25 lakh for a property at 5/1, Park Street, Kolkata, West Bengal 700016. Salary is credited to account number 05500875475 (IFSC SBIN0779922), and the applicant's email is rajesh.kumar26@rediffmail.com. PAN submitted: SRCPK9331T.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Rajesh Kumar"
+      ],
+      "ADDRESS": [
+        "5/1, Park Street, Kolkata, West Bengal 700016"
+      ],
+      "ACCOUNT_NUMBER": [
+        "05500875475"
+      ],
+      "IFSC": [
+        "SBIN0779922"
+      ],
+      "EMAIL": [
+        "rajesh.kumar26@rediffmail.com"
+      ],
+      "PAN": [
+        "SRCPK9331T"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-014",
+    "doc_type": "Customer Support Chat",
+    "content": "Sir, main Pooja Verma bol rahi hoon, Pune se. Mera address Row House 6, Kothrud, Pune, Maharashtra 411038 hai aur card delivery wahan nahi pahunchi, kripya +91 94549 28452 pe update bhej dijiye.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Pooja Verma"
+      ],
+      "ADDRESS": [
+        "Row House 6, Kothrud, Pune, Maharashtra 411038"
+      ],
+      "PHONE": [
+        "+91 94549 28452"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-015",
+    "doc_type": "IT Ticket",
+    "content": "Payroll batch failed for employee Pooja Verma; the bank account 66432316777921 with IFSC KARB0153447 was rejected by the payment gateway. The PAN KHXPV9711A on file appears mismatched, so please review the master data.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Pooja Verma"
+      ],
+      "ACCOUNT_NUMBER": [
+        "66432316777921"
+      ],
+      "IFSC": [
+        "KARB0153447"
+      ],
+      "PAN": [
+        "KHXPV9711A"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-016",
+    "doc_type": "KYC Form",
+    "content": "Corporate KYC for Annapurna Foods, GSTIN 27MZUCF2394F9Z7. The authorised signatory Suresh Iyer holds PAN OVAPI1087L and can be reached at +91 79899 74535 or suresh.iyer71@gmail.com.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Annapurna Foods"
+      ],
+      "GSTIN": [
+        "27MZUCF2394F9Z7"
+      ],
+      "PERSON": [
+        "Suresh Iyer"
+      ],
+      "PAN": [
+        "OVAPI1087L"
+      ],
+      "PHONE": [
+        "+91 79899 74535"
+      ],
+      "EMAIL": [
+        "suresh.iyer71@gmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-017",
+    "doc_type": "Customer Support Chat",
+    "content": "Bhai, meri KYC update nahi ho rahi hai. Maine Aadhaar 5000 7146 5553 link kiya tha lekin error aa raha hai, mera email sneha.patil97@outlook.com hai, jaldi solve karo please.",
+    "expected_pii_labels": {
+      "AADHAAR": [
+        "5000 7146 5553"
+      ],
+      "EMAIL": [
+        "sneha.patil97@outlook.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-018",
+    "doc_type": "IT Ticket",
+    "content": "Payroll batch failed for employee Mohammed Irfan Khan; the bank account 196121385607 with IFSC HDFC0022386 was rejected by the payment gateway. The PAN EAXPI4262Q on file appears mismatched, so please review the master data.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Mohammed Irfan Khan"
+      ],
+      "ACCOUNT_NUMBER": [
+        "196121385607"
+      ],
+      "IFSC": [
+        "HDFC0022386"
+      ],
+      "PAN": [
+        "EAXPI4262Q"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-019",
+    "doc_type": "IT Ticket",
+    "content": "User Priya Sharma reports a stolen laptop from Row House 6, Kothrud, Pune, Maharashtra 411038. Aadhaar 2133 1560 4088 was provided for the police complaint, and the asset must be remote-wiped; the user's contact number is +91 77819 59610.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Priya Sharma"
+      ],
+      "ADDRESS": [
+        "Row House 6, Kothrud, Pune, Maharashtra 411038"
+      ],
+      "AADHAAR": [
+        "2133 1560 4088"
+      ],
+      "PHONE": [
+        "+91 77819 59610"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-020",
+    "doc_type": "Loan Application",
+    "content": "Loan application received from Karthik Subramanian for a two-wheeler loan of ₹10 lakh. The applicant's Aadhaar is 2700 1594 5024, mobile number is +91 71663 23373, and the existing EMI is serviced from account 534789713311592 at IFSC SBIN0236360.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Karthik Subramanian"
+      ],
+      "AADHAAR": [
+        "2700 1594 5024"
+      ],
+      "PHONE": [
+        "+91 71663 23373"
+      ],
+      "ACCOUNT_NUMBER": [
+        "534789713311592"
+      ],
+      "IFSC": [
+        "SBIN0236360"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-021",
+    "doc_type": "IT Ticket",
+    "content": "Payroll batch failed for employee Pooja Verma; the bank account 39546180756781 with IFSC BARB0246641 was rejected by the payment gateway. The PAN MUTPV8143H on file appears mismatched, so please review the master data.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Pooja Verma"
+      ],
+      "ACCOUNT_NUMBER": [
+        "39546180756781"
+      ],
+      "IFSC": [
+        "BARB0246641"
+      ],
+      "PAN": [
+        "MUTPV8143H"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-022",
+    "doc_type": "KYC Form",
+    "content": "Corporate KYC for Ananta Software Solutions, GSTIN 36HFBCC5987D8ZW. The authorised signatory Pooja Verma holds PAN MJWPV4033B and can be reached at +91 90278 04658 or pooja.verma87@rediffmail.com.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Ananta Software Solutions"
+      ],
+      "GSTIN": [
+        "36HFBCC5987D8ZW"
+      ],
+      "PERSON": [
+        "Pooja Verma"
+      ],
+      "PAN": [
+        "MJWPV4033B"
+      ],
+      "PHONE": [
+        "+91 90278 04658"
+      ],
+      "EMAIL": [
+        "pooja.verma87@rediffmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-023",
+    "doc_type": "KYC Form",
+    "content": "KYC form submitted by Kavitha Nair, date of birth 03/07/1993. Aadhaar number 8351 1020 3838 and PAN BGBPN4887O have been provided as proof of identity, with 5/1, Park Street, Kolkata, West Bengal 700016 as the permanent address.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Kavitha Nair"
+      ],
+      "DOB": [
+        "03/07/1993"
+      ],
+      "AADHAAR": [
+        "8351 1020 3838"
+      ],
+      "PAN": [
+        "BGBPN4887O"
+      ],
+      "ADDRESS": [
+        "5/1, Park Street, Kolkata, West Bengal 700016"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-024",
+    "doc_type": "IT Ticket",
+    "content": "Ticket raised by Vikram Singh (vikram.singh19@yahoo.in): unable to access the HR portal after a password reset. Employee verification was completed using PAN QCXPS3370E, and the user can be contacted on +91 66635 16768.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Vikram Singh"
+      ],
+      "EMAIL": [
+        "vikram.singh19@yahoo.in"
+      ],
+      "PAN": [
+        "QCXPS3370E"
+      ],
+      "PHONE": [
+        "+91 66635 16768"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-025",
+    "doc_type": "KYC Form",
+    "content": "KYC form submitted by Ananya Banerjee, date of birth 28/06/1974. Aadhaar number 2053 0514 7861 and PAN IVNPB1754J have been provided as proof of identity, with Flat 302, Sai Residency, Koramangala 5th Block, Bengaluru, Karnataka 560095 as the permanent address.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Ananya Banerjee"
+      ],
+      "DOB": [
+        "28/06/1974"
+      ],
+      "AADHAAR": [
+        "2053 0514 7861"
+      ],
+      "PAN": [
+        "IVNPB1754J"
+      ],
+      "ADDRESS": [
+        "Flat 302, Sai Residency, Koramangala 5th Block, Bengaluru, Karnataka 560095"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-026",
+    "doc_type": "Customer Support Chat",
+    "content": "Hello, mera naam Sneha Patil hai. Mera loan account ka status check karna hai, please meri PAN ILEPP8771H se verify kar lo aur mujhe +91 89183 81495 par call back karo.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Sneha Patil"
+      ],
+      "PAN": [
+        "ILEPP8771H"
+      ],
+      "PHONE": [
+        "+91 89183 81495"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-027",
+    "doc_type": "Loan Application",
+    "content": "Applicant Lakshmi Narayanan (DOB 05/11/1998) has applied for a personal loan of ₹7 lakh. PAN QQUPN1399R and Aadhaar 3141 7075 3649 were submitted as identity proof, and the residential address on record is 27, Lajpat Nagar II, New Delhi, Delhi 110024. The applicant can be reached on +91 85681 51884.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Lakshmi Narayanan"
+      ],
+      "DOB": [
+        "05/11/1998"
+      ],
+      "PAN": [
+        "QQUPN1399R"
+      ],
+      "AADHAAR": [
+        "3141 7075 3649"
+      ],
+      "ADDRESS": [
+        "27, Lajpat Nagar II, New Delhi, Delhi 110024"
+      ],
+      "PHONE": [
+        "+91 85681 51884"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-028",
+    "doc_type": "KYC Form",
+    "content": "Re-KYC request for Imran Qureshi. The updated mobile number is +91 89992 48005, and Aadhaar 7851 9043 1636 has been verified via OTP. The correspondence address is Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Imran Qureshi"
+      ],
+      "PHONE": [
+        "+91 89992 48005"
+      ],
+      "AADHAAR": [
+        "7851 9043 1636"
+      ],
+      "ADDRESS": [
+        "Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-029",
+    "doc_type": "IT Ticket",
+    "content": "The vendor onboarding module throws a validation error for GSTIN 08LFCPI8990Z5ZM entered by Mohammed Irfan Khan on behalf of Ananta Software Solutions. The vendor address C-87, Malviya Nagar, Jaipur, Rajasthan 302017 and contact email mohammed.irfan8@rediffmail.com are already present in the form.",
+    "expected_pii_labels": {
+      "GSTIN": [
+        "08LFCPI8990Z5ZM"
+      ],
+      "PERSON": [
+        "Mohammed Irfan Khan"
+      ],
+      "ORGANIZATION": [
+        "Ananta Software Solutions"
+      ],
+      "ADDRESS": [
+        "C-87, Malviya Nagar, Jaipur, Rajasthan 302017"
+      ],
+      "EMAIL": [
+        "mohammed.irfan8@rediffmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-030",
+    "doc_type": "IT Ticket",
+    "content": "Ticket raised by Gurpreet Kaur (gurpreet.kaur94@rediffmail.com): unable to access the HR portal after a password reset. Employee verification was completed using PAN TXBPK4995H, and the user can be contacted on +91 84805 94980.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Gurpreet Kaur"
+      ],
+      "EMAIL": [
+        "gurpreet.kaur94@rediffmail.com"
+      ],
+      "PAN": [
+        "TXBPK4995H"
+      ],
+      "PHONE": [
+        "+91 84805 94980"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-031",
+    "doc_type": "Loan Application",
+    "content": "Shweta Desai has applied for a home loan of ₹5 lakh for a property at Row House 6, Kothrud, Pune, Maharashtra 411038. Salary is credited to account number 298222900442 (IFSC ICIC0485272), and the applicant's email is shweta.desai87@yahoo.in. PAN submitted: JPTPD1889K.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Shweta Desai"
+      ],
+      "ADDRESS": [
+        "Row House 6, Kothrud, Pune, Maharashtra 411038"
+      ],
+      "ACCOUNT_NUMBER": [
+        "298222900442"
+      ],
+      "IFSC": [
+        "ICIC0485272"
+      ],
+      "EMAIL": [
+        "shweta.desai87@yahoo.in"
+      ],
+      "PAN": [
+        "JPTPD1889K"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-032",
+    "doc_type": "IT Ticket",
+    "content": "The vendor onboarding module throws a validation error for GSTIN 36GXLCC1006G5ZH entered by Vikram Singh on behalf of Shree Ganesh Pharma. The vendor address H.No. 8-2-120, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034 and contact email vikram.singh42@yahoo.in are already present in the form.",
+    "expected_pii_labels": {
+      "GSTIN": [
+        "36GXLCC1006G5ZH"
+      ],
+      "PERSON": [
+        "Vikram Singh"
+      ],
+      "ORGANIZATION": [
+        "Shree Ganesh Pharma"
+      ],
+      "ADDRESS": [
+        "H.No. 8-2-120, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034"
+      ],
+      "EMAIL": [
+        "vikram.singh42@yahoo.in"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-033",
+    "doc_type": "Customer Support Chat",
+    "content": "Bhai, meri KYC update nahi ho rahi hai. Maine Aadhaar 4245 9004 7189 link kiya tha lekin error aa raha hai, mera email anand.gowda5@yahoo.in hai, jaldi solve karo please.",
+    "expected_pii_labels": {
+      "AADHAAR": [
+        "4245 9004 7189"
+      ],
+      "EMAIL": [
+        "anand.gowda5@yahoo.in"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-034",
+    "doc_type": "Loan Application",
+    "content": "Fatima Sheikh has applied for a home loan of ₹2 lakh for a property at No. 45, 3rd Cross, Vijayanagar 2nd Stage, Mysuru, Karnataka 570017. Salary is credited to account number 882811265844093 (IFSC ICIC0448452), and the applicant's email is fatima.sheikh28@yahoo.in. PAN submitted: HVQPS2653R.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Fatima Sheikh"
+      ],
+      "ADDRESS": [
+        "No. 45, 3rd Cross, Vijayanagar 2nd Stage, Mysuru, Karnataka 570017"
+      ],
+      "ACCOUNT_NUMBER": [
+        "882811265844093"
+      ],
+      "IFSC": [
+        "ICIC0448452"
+      ],
+      "EMAIL": [
+        "fatima.sheikh28@yahoo.in"
+      ],
+      "PAN": [
+        "HVQPS2653R"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-035",
+    "doc_type": "Loan Application",
+    "content": "Loan application received from Sunita Yadav for a two-wheeler loan of ₹15 lakh. The applicant's Aadhaar is 7438 2993 2157, mobile number is +91 91164 94157, and the existing EMI is serviced from account 79511174432568 at IFSC CNRB0576523.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Sunita Yadav"
+      ],
+      "AADHAAR": [
+        "7438 2993 2157"
+      ],
+      "PHONE": [
+        "+91 91164 94157"
+      ],
+      "ACCOUNT_NUMBER": [
+        "79511174432568"
+      ],
+      "IFSC": [
+        "CNRB0576523"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-036",
+    "doc_type": "IT Ticket",
+    "content": "The vendor onboarding module throws a validation error for GSTIN 24IRKPP2580Z4ZA entered by Sneha Patil on behalf of Shree Ganesh Pharma. The vendor address A-11, Satellite Road, Ahmedabad, Gujarat 380015 and contact email sneha.patil2@yahoo.in are already present in the form.",
+    "expected_pii_labels": {
+      "GSTIN": [
+        "24IRKPP2580Z4ZA"
+      ],
+      "PERSON": [
+        "Sneha Patil"
+      ],
+      "ORGANIZATION": [
+        "Shree Ganesh Pharma"
+      ],
+      "ADDRESS": [
+        "A-11, Satellite Road, Ahmedabad, Gujarat 380015"
+      ],
+      "EMAIL": [
+        "sneha.patil2@yahoo.in"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-037",
+    "doc_type": "Loan Application",
+    "content": "Loan application received from Sunita Yadav for a two-wheeler loan of ₹60 lakh. The applicant's Aadhaar is 4838 2226 4685, mobile number is +91 91642 52477, and the existing EMI is serviced from account 718841330175682 at IFSC HDFC0525898.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Sunita Yadav"
+      ],
+      "AADHAAR": [
+        "4838 2226 4685"
+      ],
+      "PHONE": [
+        "+91 91642 52477"
+      ],
+      "ACCOUNT_NUMBER": [
+        "718841330175682"
+      ],
+      "IFSC": [
+        "HDFC0525898"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-038",
+    "doc_type": "Loan Application",
+    "content": "Rajesh Kumar, proprietor of Shree Ganesh Pharma, has requested a working capital loan of ₹60 lakh. The firm's GSTIN is 29WGRCR0125H9Z2 and the proprietor's PAN is GZOPK8495C. The registered business address is Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Rajesh Kumar"
+      ],
+      "ORGANIZATION": [
+        "Shree Ganesh Pharma"
+      ],
+      "GSTIN": [
+        "29WGRCR0125H9Z2"
+      ],
+      "PAN": [
+        "GZOPK8495C"
+      ],
+      "ADDRESS": [
+        "Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-039",
+    "doc_type": "Customer Support Chat",
+    "content": "Sir, main Ananya Banerjee bol rahi hoon, Ahmedabad se. Mera address A-11, Satellite Road, Ahmedabad, Gujarat 380015 hai aur card delivery wahan nahi pahunchi, kripya +91 93037 52680 pe update bhej dijiye.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Ananya Banerjee"
+      ],
+      "ADDRESS": [
+        "A-11, Satellite Road, Ahmedabad, Gujarat 380015"
+      ],
+      "PHONE": [
+        "+91 93037 52680"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-040",
+    "doc_type": "Customer Support Chat",
+    "content": "Hello, mera naam Sneha Patil hai. Mera loan account ka status check karna hai, please meri PAN KJAPP4915G se verify kar lo aur mujhe +91 75556 51747 par call back karo.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Sneha Patil"
+      ],
+      "PAN": [
+        "KJAPP4915G"
+      ],
+      "PHONE": [
+        "+91 75556 51747"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-041",
+    "doc_type": "KYC Form",
+    "content": "Re-KYC request for Pooja Verma. The updated mobile number is +91 74460 26195, and Aadhaar 2429 4747 8184 has been verified via OTP. The correspondence address is No. 9, Saraswathipuram, Mysuru, Karnataka 570009.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Pooja Verma"
+      ],
+      "PHONE": [
+        "+91 74460 26195"
+      ],
+      "AADHAAR": [
+        "2429 4747 8184"
+      ],
+      "ADDRESS": [
+        "No. 9, Saraswathipuram, Mysuru, Karnataka 570009"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-042",
+    "doc_type": "Customer Support Chat",
+    "content": "Hi, main Tulsi Stationers ka owner Fatima Sheikh hoon. Humara GSTIN 29MBDPS6967M8Z4 hai aur invoice upload nahi ho raha, please jaldi se dekho aur fatima.sheikh96@rediffmail.com par confirmation bhejo.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Tulsi Stationers"
+      ],
+      "PERSON": [
+        "Fatima Sheikh"
+      ],
+      "GSTIN": [
+        "29MBDPS6967M8Z4"
+      ],
+      "EMAIL": [
+        "fatima.sheikh96@rediffmail.com"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-043",
+    "doc_type": "KYC Form",
+    "content": "Corporate KYC for Annapurna Foods, GSTIN 27UZWPJ8178V6ZY. The authorised signatory Meera Joshi holds PAN UZWPJ8178V and can be reached at +91 68288 98370 or meera.joshi70@yahoo.in.",
+    "expected_pii_labels": {
+      "ORGANIZATION": [
+        "Annapurna Foods"
+      ],
+      "GSTIN": [
+        "27UZWPJ8178V6ZY"
+      ],
+      "PERSON": [
+        "Meera Joshi"
+      ],
+      "PAN": [
+        "UZWPJ8178V"
+      ],
+      "PHONE": [
+        "+91 68288 98370"
+      ],
+      "EMAIL": [
+        "meera.joshi70@yahoo.in"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-044",
+    "doc_type": "KYC Form",
+    "content": "Re-KYC request for Sunita Yadav. The updated mobile number is +91 63785 22238, and Aadhaar 6833 5414 8816 has been verified via OTP. The correspondence address is 12/4, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Sunita Yadav"
+      ],
+      "PHONE": [
+        "+91 63785 22238"
+      ],
+      "AADHAAR": [
+        "6833 5414 8816"
+      ],
+      "ADDRESS": [
+        "12/4, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-045",
+    "doc_type": "Loan Application",
+    "content": "Shweta Desai, proprietor of Metro Logistics Pvt Ltd, has requested a working capital loan of ₹3 lakh. The firm's GSTIN is 33BWQPD1967E1ZJ and the proprietor's PAN is BWQPD1967E. The registered business address is 12/4, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Shweta Desai"
+      ],
+      "ORGANIZATION": [
+        "Metro Logistics Pvt Ltd"
+      ],
+      "GSTIN": [
+        "33BWQPD1967E1ZJ"
+      ],
+      "PAN": [
+        "BWQPD1967E"
+      ],
+      "ADDRESS": [
+        "12/4, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-046",
+    "doc_type": "IT Ticket",
+    "content": "User Rohit Agarwal reports a stolen laptop from B-204, Shanti Apartments, Andheri West, Mumbai, Maharashtra 400053. Aadhaar 4238 6378 7768 was provided for the police complaint, and the asset must be remote-wiped; the user's contact number is +91 64054 24685.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Rohit Agarwal"
+      ],
+      "ADDRESS": [
+        "B-204, Shanti Apartments, Andheri West, Mumbai, Maharashtra 400053"
+      ],
+      "AADHAAR": [
+        "4238 6378 7768"
+      ],
+      "PHONE": [
+        "+91 64054 24685"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-047",
+    "doc_type": "IT Ticket",
+    "content": "Ticket raised by Rajesh Kumar (rajesh.kumar54@rediffmail.com): unable to access the HR portal after a password reset. Employee verification was completed using PAN NBKPK6433G, and the user can be contacted on +91 63720 56832.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Rajesh Kumar"
+      ],
+      "EMAIL": [
+        "rajesh.kumar54@rediffmail.com"
+      ],
+      "PAN": [
+        "NBKPK6433G"
+      ],
+      "PHONE": [
+        "+91 63720 56832"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-048",
+    "doc_type": "IT Ticket",
+    "content": "User Gurpreet Kaur reports a stolen laptop from H.No. 8-2-120, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034. Aadhaar 2777 8545 7915 was provided for the police complaint, and the asset must be remote-wiped; the user's contact number is +91 61699 29383.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Gurpreet Kaur"
+      ],
+      "ADDRESS": [
+        "H.No. 8-2-120, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034"
+      ],
+      "AADHAAR": [
+        "2777 8545 7915"
+      ],
+      "PHONE": [
+        "+91 61699 29383"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-049",
+    "doc_type": "KYC Form",
+    "content": "KYC form submitted by Imran Qureshi, date of birth 22/02/1985. Aadhaar number 9258 4441 9308 and PAN TQFPQ8640R have been provided as proof of identity, with Row House 6, Kothrud, Pune, Maharashtra 411038 as the permanent address.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Imran Qureshi"
+      ],
+      "DOB": [
+        "22/02/1985"
+      ],
+      "AADHAAR": [
+        "9258 4441 9308"
+      ],
+      "PAN": [
+        "TQFPQ8640R"
+      ],
+      "ADDRESS": [
+        "Row House 6, Kothrud, Pune, Maharashtra 411038"
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-050",
+    "doc_type": "Loan Application",
+    "content": "Applicant Shweta Desai (DOB 22/08/2002) has applied for a personal loan of ₹15 lakh. PAN LNZPD9632O and Aadhaar 6742 8435 2812 were submitted as identity proof, and the residential address on record is Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011. The applicant can be reached on +91 84976 60856.",
+    "expected_pii_labels": {
+      "PERSON": [
+        "Shweta Desai"
+      ],
+      "DOB": [
+        "22/08/2002"
+      ],
+      "PAN": [
+        "LNZPD9632O"
+      ],
+      "AADHAAR": [
+        "6742 8435 2812"
+      ],
+      "ADDRESS": [
+        "Door No. 14, 2nd Main, Jayanagar 4th Block, Bengaluru, Karnataka 560011"
+      ],
+      "PHONE": [
+        "+91 84976 60856"
+      ]
+    }
+  }
+]

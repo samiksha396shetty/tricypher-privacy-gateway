@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TriCypher Privacy Gateway
 
 A small Streamlit demo that detects common personal identifiers locally, replaces
@@ -47,3 +48,6 @@ Tokens are reversible only through an in-memory vault attached to a single
 pipeline result. Do not persist or expose that vault. The audit file records only
 timestamps, entity counts, and verification status; it never records source text.
 An external LLM provider may retain requests under its own policies.
+=======
+# tricypher-privacy-gateway
+>>>>>>> 5766aa54da4e67c451d370c04ca71b0a3330b2cf
