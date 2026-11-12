@@ -1,0 +1,26 @@
+[
+  {
+    "id": "synthetic-001",
+    "text": "For the sample account, contact alex@example.com or call +1 (415) 555-0132.",
+    "expected_entities": [
+      {"type": "EMAIL", "value": "alex@example.com"},
+      {"type": "PHONE", "value": "+1 (415) 555-0132"}
+    ]
+  },
+  {
+    "id": "synthetic-002",
+    "text": "The sample record lists SSN 123-45-6789 and employee EMP-12345.",
+    "expected_entities": [
+      {"type": "SSN", "value": "123-45-6789"},
+      {"type": "EMPLOYEE_ID", "value": "EMP-12345"}
+    ]
+  },
+  {
+    "id": "synthetic-003",
+    "text": "Payment test card 4111 1111 1111 1111 originated from 192.0.2.10.",
+    "expected_entities": [
+      {"type": "CREDIT_CARD", "value": "4111 1111 1111 1111"},
+      {"type": "IP_ADDRESS", "value": "192.0.2.10"}
+    ]
+  }
+]

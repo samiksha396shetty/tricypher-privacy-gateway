@@ -1,0 +1,8 @@
+{
+  "description": "Expected entities for datasets/synthetic_documents.json.",
+  "documents": {
+    "synthetic-001": ["EMAIL", "PHONE"],
+    "synthetic-002": ["SSN", "EMPLOYEE_ID"],
+    "synthetic-003": ["CREDIT_CARD", "IP_ADDRESS"]
+  }
+}
